@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profile Generator</title>
+<link rel="stylesheet" href="asset/skeleton.min.css">
+<link rel="stylesheet" href="asset/style.css">
+</head>
+<body>
+<div id="panel">
+<input id="name" type="text" placeholder="Full Name">
+<br>
+<input id="des" type="text" placeholder="Descriptions">
+<br>
+<br>
+<br>
+<input id="date" type="text" placeholder="Date">
+<br>
+<div id="evt">
+<input class="evt" type="text" placeholder="Event"><br>
+</div>
+<button onclick="newEvt()">NEW</button>
+<br>
+<button onclick="add()">ADD</button>
+<br>
+<br>
+<br>
+<button onclick="exc()">EXPORT</button>
+</div>
+<div id="view">
+<div id="out">
+<h2>Hello, I am <span id="name-txt"></span></h2>
+<h4><span id="des-txt"></span></h4>
+<br>
+<br>
+<br>
+</div>
+</div>
+<script src="asset/script.js"></script>
+</body>
+</html>
